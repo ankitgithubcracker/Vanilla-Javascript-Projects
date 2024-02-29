@@ -1,0 +1,215 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+body {
+    background: url(bg-img.jpg) no-repeat;
+    background-size: cover;
+    color: #aea4a4;
+    min-height: 100vh;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+/* Registration-CSS */
+
+.registration-form {
+    /* display: none; */
+    min-height: 450px;
+    width: 350px;
+    padding: 10px;
+    border-radius: 8px;
+    box-shadow: rgba(255, 255, 255, 0.25) 0px 14px 28px, rgba(242, 237, 237, 0.22) 0px 10px 10px;
+    /* margin-left: 16px; */
+    margin: auto;
+}
+
+.registration {
+    text-align: center;
+}
+
+.registration h1 {
+    font-size: 25px;
+    font-weight: 600;
+}
+
+#myForm {
+    /* border: 1px solid #fff; */
+    height: 77%;
+    padding: 10px;
+}
+
+#myForm label {
+    font-size: 18px;
+    font-weight: 600;
+}
+
+#myForm input {
+    width: 100%;
+    margin: 0px 0px 10px;
+    height: 28px;
+    border: none;
+    outline: none;
+    border-radius: 5px;
+    padding: 5px 10px;
+}
+
+#myForm span {
+    height: 10px;
+    width: 100%;
+    text-align: left;
+    padding: 5px 0;
+    color: green;
+    font-weight: 600;
+}
+
+#myForm div {
+    position: relative;
+}
+
+#myForm span i {
+    position: absolute;
+    right: 10px;
+    top: 25px;
+    font-weight: 900;
+    font-size: 20px;
+}
+
+button {
+    width: 100%;
+    height: 36px;
+    padding: 5px;
+    margin-top: 10px;
+    font-size: 18px;
+    font-weight: 600;
+    border-radius: 5px;
+    border: none;
+    outline: none;
+    background-color: #7e36a3;
+    color: #fff;
+    box-shadow: 0 0 0 #fff;
+    transition: box-shadow .3s ease-in;
+    cursor: pointer;
+}
+
+button:hover {
+    box-shadow: 2px 2px 6px #cfc6d3,
+        -2px -2px 6px #bdb3c2;
+}
+
+.registration-form p {
+    text-align: center;
+    color: #fff;
+    font-weight: 600;
+    margin-top: 8px;
+}
+
+.registration-form p a {
+    text-decoration: none;
+    font-weight: 500;
+}
+
+.registration-form p a:hover {
+    text-decoration: underline;
+}
+
+hr {
+    margin: 15px;
+}
+
+.registration-form .social-media-section {
+    /* border: 1px solid #fff; */
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 50px;
+    font-size: 24px;
+
+}
+
+.registration-form .social-media-section i {
+    font-weight: 700;
+    color: #505b9a;
+    cursor: pointer;
+}
+
+/* Login Form - CSS */
+
+.login-form {
+    min-height: 300px;
+    width: 350px;
+    padding: 10px;
+    border-radius: 8px;
+    box-shadow: rgba(239, 235, 235, 0.35) 0px 5px 15px;
+    /* margin-left: 16px; */
+    margin: auto;
+}
+.login-form .login h1{
+    text-align: center;
+}
+.login-form #my_login_form{
+    /* border: 1px solid #fff; */
+    height: 70%;
+}
+#my_login_form label{
+    font-size: 20px;
+    font-weight: 500;
+    padding: 10px 0;
+}
+#my_login_form input{
+    width: 100%;
+    height: 25px;
+    margin-block:5px;
+    margin: none;
+    outline: none;
+}
+.login-form p{
+    text-align: center;
+    color: #fff;
+    font-weight: 600;
+    margin-top: 8px;
+}
+.login-form p a{
+    text-decoration: none;
+}
+.login-form a:hover{
+    text-decoration: underline;
+}
+.login-form .social-media-section {
+    /* border: 1px solid #fff; */
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 50px;
+    font-size: 24px;
+
+}
+.login-form .social-media-section i {
+    font-weight: 700;
+    color: #505b9a;
+    cursor: pointer;
+}
+#my_login_form span {
+    height: 10px;
+    width: 100%;
+    text-align: left;
+    padding: 5px 0;
+    color: green;
+    font-weight: 600;
+}
+
+#my_login_form div {
+    position: relative;
+}
+
+#my_login_form span i {
+    position: absolute;
+    right: 10px;
+    top: 30px;
+    font-weight: 900;
+    font-size: 20px;
+}

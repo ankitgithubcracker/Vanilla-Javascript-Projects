@@ -1,0 +1,70 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+main{
+    position: relative;
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: url("bg.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
+}
+h1{
+    position: absolute;
+    top: 4rem;
+}
+#endTime{
+    position: absolute;
+    top: 8rem;
+    /* border: 2px solid black;
+    height: 50px;
+    width: 500px; */
+}
+.clockBox{
+    height: 22%;
+    border-radius: 20px;
+    width: 55%;
+    /* background: silver; */
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 2%;
+    box-shadow: 0px 0px 0px 15px rgba(0, 0, 0, 0.1),
+    0px 0px 10px 15px rgba(0, 0, 0, 0.7) ;
+}
+.clockBox .hour{
+    display: block;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    height: 70%;
+    width: 30%;
+}
+input{
+    height: 80%;
+    width: 100%;
+    border-radius: 5px;
+    outline: none;
+    border: none;
+    text-align: center;
+    font-size: 1.8rem;
+    font-weight: 700;
+    background: grey;
+    background: transparent;
+    color: white;
+}
+
+.myAudio{
+    display: none;
+}
+@media screen and (max-width:500px) {
+    .clockBox{
+        width: 85%;
+    }
+}
